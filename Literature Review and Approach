@@ -1,0 +1,62 @@
+Time-series Stock Price Predictive Analytics
+
+Introduction 
+  The stock market began in 1792 at Wall Street, New York with a few stockbrokers on the street (Posner, 2020). 
+  This platform has allowed investors to buy and sell shares of a public company or better well known as stocks. 
+  Other investments include bonds and commodities such as gold and oil. 
+  The main benefits from an investor’s perspective are to stay ahead of inflation with compound interest and personal financial growth. 
+  With pros come cons and the main disadvantages are competition and risk (Amadeo, 2020). 
+  The S&P 500 is based on the top 500 companies in America and is considered a benchmark for annual stock market returns. 
+  Many investors know that the long-term investment into the S&P 500 has an average return on investment of 10% and as a benchmark investor’s goal is to outperform it. 
+  With technology growing, algorithm trading has found a place in the stock market. 
+  Using data from the market and time-series predictive analytics can a model be built to outperform the S&P500 for individual investors.
+
+Literature Review
+  Recently the stock market has seen a major crash in 2020 due to the COVID-19 pandemic. 
+  This has caused the volume of stock trading to go up and lead the market to be flooded with new cash resulting in a quick recovery.  
+  With emerging technology, the stock market is adapting towards algorithm trading. 
+  “Algorithmic trading is the process of buying or selling a security basing on some pre-described set of rules tested on historical data” (Turner, 2019). 
+  This technology was used to help Tesla buy 1.5 billion dollars’ worth of bitcoin at a good average price. 
+  The popularity of algorithm trading grew massively over the years to 85% of market volume in 2012 (Turner, 2019). 
+  This method of trading has proven to be beneficial and eliminates poor trading ideas (Turner, 2019).
+
+Dataset
+  The dataset used in this research is sourced from Yahoo Finance. 
+  It includes over 7500 instances for each individual stock and has 7 attributes. The data attributes outline the ticker symbol, date, volume, and various prices.  
+
+Attribute Information:
+  •	Symbol – Ticker Symbol
+  •	Date: Year-Month-Day
+  •	Close – Closing Price
+  •	High – Day High Price
+  •	Low – Day Low Price
+  •	Open – Opening Price
+  •	Volume – Volume of Stock
+  Each of the attributes will be used to create a time series stacked LSTM model to predict the future trends of the stock market.
+
+Approach 
+  Step 1: Data Collection 
+    •	Import data from Yahoo Finance. 
+    •	Understand the attributes.
+    •	Visualize the correlation to find connections and attribute importance. 
+    •	Create a boxplot to show the distribution of each attribute.
+  Step 2: Data Preparation
+    •	Check for missing values and outliers. 
+    •	Divide dataset into training and test sets. 
+  Step 3: Stacked LSTM Model 
+    •	Using time-series predictive analytics to create a stacked LSTM Model. 
+  Step 4: Model Development
+    •	Predict the test data and the future stock performance. 
+  Step 5: Analyze Data
+    •	Compare the model’s performance with actual data. 
+  Step 6: Results and Discussion
+    •	Display results. 
+    •	Analyze the research findings. 
+    •	Answer the project question. 
+  Step 7: Conclusion
+    •	Summarize the research and project question. 
+
+Citation
+Posner, J. (2020). Explained The Stock Market [Video]. Netflix.
+Amadeo, K. (2020). Pros and Cons of Investing in Stocks. Retrieved 15 February 2021, from https://www.thebalance.com/stock-investing-for-the-individual-investor-3306182
+Turner, C. (2019). The Future Of Algorithmic Trading. Retrieved 15 February 2021, from https://www.experfy.com/blog/fintech/the-future-of-algorithmic-trading/
