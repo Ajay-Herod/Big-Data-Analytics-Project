@@ -1,0 +1,18 @@
+Time-series Stock Price Predictive Analytics 
+Ajay Herod, 500764104, ajay.herod@ryerson.ca
+
+Abstract
+     The stock market began in 1792 on Wall Street New York with a few stockbrokers on the street (Posner, 2020). 
+     Now it has evolved and grown dramatically all around the world and has taken advantage of the digital era. 
+     The stock market is a platform that allows investors to buy and sell most commonly stock which is shares of a public company. 
+     Other investments include bonds and commodities such as gold and oil. The stock market is a complex and dirty game filled with millions of investors trying to get rich. 
+     The S&P 500 is based on the top 500 companies in America and is considered a benchmark for annual stock market returns. 
+     Many investors know that the long-term investment into the S&P 500 has an average return on investment of 10%, much better rates than any bank. 
+     The number one problem with the stock market is predicting its short-term movements. 
+     This is a problem that investors such as Warren Buffett CEO of Berkshire Hathaway have been analyzing and predicting for decades. 
+     The dataset used in this research is publicly available from yahoo finance. The number of instances includes decades of each trading day with an average of 250 a year. 
+     The data also includes attributes such as ticker symbol, open, close, high, low and volume of the stock traded on each day. 
+     With this data we can use predictive analytics and time series to predict the trend of a stock and provide us future information and trends. 
+     The tools proposed to solve the problem will be Python, JupyterLab, Excel, and PowerPoint.
+
+Posner, J. (2020). Explained The Stock Market [Video]. Netflix.
